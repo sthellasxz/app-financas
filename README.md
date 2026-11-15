@@ -16,11 +16,7 @@ autenticação de usuários e dashboard com indicadores e gráficos.
   (maior categoria de gasto, quantidade de lançamentos, % despesas/receitas)
 - Extras: modo escuro e filtro por período
 
-## Como rodar
-1. `npm install`
-2. Copie `.env.example` para `.env` e preencha com a URL e a Publishable key do Supabase
-3. Rode `supabase/schema.sql` no SQL Editor do Supabase
-4. `npm run dev` (ou `ionic serve`)
+
 
 ## Estrutura
 ```
@@ -36,5 +32,5 @@ src/
 ```
 
 ## Integrantes
-- Nome 1
-- Nome 2
+- sthella miers da silva
+
