@@ -1,0 +1,31 @@
+:root {
+  --ion-color-primary: #2e7d5b;
+  --ion-color-primary-rgb: 46, 125, 91;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #286e50;
+  --ion-color-primary-tint: #438a6b;
+  --app-receita: #1f9d55;
+  --app-despesa: #d64545;
+  --app-card-bg: #ffffff;
+  --app-fundo: #f3f5f4;
+}
+
+:root.ion-palette-dark {
+  --ion-color-primary: #5fc496;
+  --ion-color-primary-rgb: 95, 196, 150;
+  --ion-color-primary-contrast: #0b1f16;
+  --ion-color-primary-contrast-rgb: 11, 31, 22;
+  --ion-color-primary-shade: #54ac84;
+  --ion-color-primary-tint: #6fcaa1;
+  --app-receita: #4cd38a;
+  --app-despesa: #ff7a7a;
+  --app-card-bg: #1e1e1e;
+  --app-fundo: #121212;
+}
+
+ion-content.fundo { --background: var(--app-fundo); }
+.conteudo-central { max-width: 720px; margin: 0 auto; }
+.texto-receita { color: var(--app-receita); }
+.texto-despesa { color: var(--app-despesa); }
+.erro-campo { color: var(--ion-color-danger); font-size: 0.8rem; padding: 4px 16px 0; margin: 0; }
