@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^7.6.0",
     "@capacitor/core": "7.6.0",
     "@ionic/vue": "8.8.19",
     "@ionic/vue-router": "8.8.19",
